@@ -24,8 +24,8 @@ function Navbar(){
             <div>
                 <Link to="/about">About</Link>
             </div>
-            <div className="flex ml-112 mr-auto">
-                <img src={logo} alt="logo" className="size-10 -mt-3.5 w-14 -mr-1"></img>
+            <div className="flex ml-112 mr-auto text-2xl">
+                <img src={logo} alt="logo" className="size-12 -mt-4.5 w-16 -mr-1.5"></img>
                 <p className="font-medium">Nutri</p><p className="text-white font-normal">Decode</p>
             </div>
             <div>
