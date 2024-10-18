@@ -2,7 +2,7 @@ function Login(){
     return(
         <div className="flex flex-col max-w-full justify-center items-center h-screen w-screen bg-green-100">
             <div className="flex flex-col text-center w-2/3 h-2/3 shadow-2xl bg-white rounded-lg p-8 gap-4">
-                <p className="text-4xl">Welcome Back!</p>
+                <p className="text-4xl mt-4">Welcome Back!</p>
                 <p className="text-2xl font-light mb-5">Enter your credentials to log in</p>
                 <form className="flex flex-col items-center gap-5 text-lg">
                     <div className="flex flex-col">
