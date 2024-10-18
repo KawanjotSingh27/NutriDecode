@@ -13,16 +13,16 @@ function Navbar(){
     return(
         <div className="flex max-w-full gap-8 w-screen p-4 size-10 text-xl bg-green-500 h-fit font-light">
             <div>
-                <Link to="/" className="font-medium">Home</Link>
+                <Link to="/" className="focus:font-medium">Home</Link>
             </div>
             <div>
-                <Link to="/explore">Explore</Link>
+                <Link to="/explore" className="focus:font-medium">Explore</Link>
             </div>
             <div>
-                <Link to="/compare">Compare</Link>
+                <Link to="/compare" className="focus:font-medium">Compare</Link>
             </div>
             <div>
-                <Link to="/about">About</Link>
+                <Link to="/about" className="focus:font-medium">About</Link>
             </div>
             <div className="flex ml-112 mr-auto text-2xl">
                 <img src={logo} alt="logo" className="size-12 -mt-4.5 w-16 -mr-1.5"></img>

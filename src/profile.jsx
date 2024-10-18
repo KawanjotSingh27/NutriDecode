@@ -1,3 +1,5 @@
+import heart from './assets/heart.svg'
+
 function Profile(){
     return(
         <div className="bg-green-100">
@@ -42,13 +44,50 @@ function Profile(){
                             <p className="bg-gray-200 max-w-fit p-1">Non-Veg</p>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-6 mt-12 items-center mb-10">
+                    <div className="flex flex-col gap-6 mt-12 items-center">
                         <button className="border-purple-400 border-2 w-60 rounded-lg p-1 text-xl text-purple-700">Edit Profile</button>
                         <button className="border-purple-400 border-2 w-60 rounded-lg p-1 text-xl text-red-600">Delete Account</button>
                     </div>
                 </div>
                 <div className="bg-white row-start-1 row-end-2 col-start-2 col-end-4 shadow-lg p-5">
-                    <p className="text-2xl">Favourites</p>
+                    <div className="flex ">
+                        <p className="text-2xl mb-4 mr-auto">Favourites</p>
+                        <p className="mt-1">View All</p>
+                    </div>
+                    <div className="ml-2 flex flex-wrap gap-5">
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Wholewheat Bread</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Bread</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Oats</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Chips</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Tofu</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Sprite</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Almond Milk</p>
+                        </div>
+                        <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
+                            <img src={heart} alt="heart" className='size-5'></img>
+                            <p>Cheese</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="bg-white row-start-1 row-end-2 col-start-4 col-end-5 shadow-lg p-5">
                     <p className="text-2xl">Family Profile</p>
@@ -59,15 +98,14 @@ function Profile(){
                         <p className="mt-1">View All</p>
                     </div>
                     <div className="ml-2 flex flex-col gap-5">
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Acid Insoluble Ash</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">BCAAs</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Fibre</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Water Soluble Vitamins</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Invisible Fat</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Added Sugars</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Fibre</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Water Solube Vitamins</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-1 pl-6">Invisible Fat</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Acid Insoluble Ash</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">BCAAs</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Fibre</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Water Soluble Vitamins</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Invisible Fat</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Added Sugars</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Fibre</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Water Solube Vitamins</div>
                     </div>
                 </div>
                 <div className="bg-white row-start-2 row-end-5 col-start-3 col-end-4 shadow-lg p-5">
