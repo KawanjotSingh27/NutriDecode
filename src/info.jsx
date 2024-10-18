@@ -136,7 +136,7 @@ function Info() {
                         <p className='text-lg'>{category}</p>
                         <p className='font-light'>{description}</p>
                     </div>
-                    <div className='ml-94'>
+                    <div>
                         <p className='text-white bg-purple-600 p-1 rounded-t-lg text-sm'>Health Score</p>
                         <p className='text-center bg-white text-3xl p-2 border-purple-600 border-2'>B</p>
                     </div>
