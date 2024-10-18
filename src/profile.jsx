@@ -1,4 +1,4 @@
-import heart from './assets/heart.svg'
+import heart_full from './assets/heart_full.svg'
 
 function Profile(){
     return(
@@ -56,35 +56,35 @@ function Profile(){
                     </div>
                     <div className="ml-2 flex flex-wrap gap-5">
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Wholewheat Bread</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Bread</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Oats</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Chips</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Tofu</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Sprite</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Almond Milk</p>
                         </div>
                         <div className="border-2 border-purple-400 rounded-lg p-2.5 flex gap-2">
-                            <img src={heart} alt="heart" className='size-5'></img>
+                            <img src={heart_full} alt="heart_full" className='size-5'></img>
                             <p>Cheese</p>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ function Profile(){
                         <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Invisible Fat</div>
                         <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Added Sugars</div>
                         <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Fibre</div>
-                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Water Solube Vitamins</div>
+                        <div className="border-[3px] border-purple-400 rounded-lg p-2 pl-6">Water Soluble Vitamins</div>
                     </div>
                 </div>
                 <div className="bg-white row-start-2 row-end-5 col-start-3 col-end-4 shadow-lg p-5">

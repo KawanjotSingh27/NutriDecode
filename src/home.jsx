@@ -10,7 +10,7 @@ function Home(){
                 <div className="flex">
                     <div className="flex bg-white rounded-xl p-1 items-center justify-center mr-112 ml-112">
                         <input type="search" placeholder="Find the Nutritional Facts of your Favourite Foods" className="w-160 p-2 rounded-xl border-none focus:outline-none"></input>
-                        <img src={search} alt="search" className="cursor-pointer size-8 mr-2"></img>
+                        <img src={search} alt="search" className="cursor-pointer size-6 mr-2"></img>
                     </div>
                     <div className="flex border-purple-500 border-2 rounded-full size-14 items-center justify-center bg-purple-100">
                         <img src={chatbot} alt="chatbot" className="size-8"></img>
