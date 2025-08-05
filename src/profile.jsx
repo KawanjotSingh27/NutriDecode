@@ -8,7 +8,7 @@ function Profile(){
                     <div className="flex mb-5">
                         <div className="bg-gray-300 w-36 h-36"></div>
                         <div className="text-sm p-2 mt-2">
-                            <p className="text-2xl mb-2">Vipul Kohli</p>
+                            <p className="text-2xl mb-2">Kawanjot Singh</p>
                             <p>Male</p>
                             <p>19 years</p>
                             <p>5'9ft | 70 kgs</p>
